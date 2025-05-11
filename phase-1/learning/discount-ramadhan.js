@@ -1,6 +1,6 @@
 function run(n) {
   var discount = 0;
-  if (n > 500000) {
+  if (n > 50000) {
     discount = 15;
   } else if (n > 35000) {
     discount = 10;
