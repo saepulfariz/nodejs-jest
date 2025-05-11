@@ -7,7 +7,6 @@ function run(n) {
   } else if (n > 20000) {
     discount = 5;
   }
-
   var price_discount = (n * discount) / 100;
   var price_total = n - price_discount;
   return Math.ceil(price_total);
